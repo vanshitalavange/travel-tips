@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+:root {
+  --primary-color: #3b82f6;
+  --lightblue-color: #93c5fd;
+  --darkblue-color: #2563eb;
+}
+#heading {
+  color: var(--primary-color);
+}
+hr {
+  max-width: 500px;
+}
+.btn-traveltype {
+  padding: 1rem 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--primary-color);
+  background-color: var(--lightblue-color);
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+.travel-places {
+  list-style: none;
+  margin: auto;
+  margin-top: 1rem;
+  max-width: 400px;
+  display: block;
+  padding: 0rem 2rem 0.5rem 1.5rem;
+  border: 1px solid var(--darkblue-color);
+  text-align: left;
+  border-radius: 0.5rem;
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+
+.desc {
+  text-align: left;
+}
